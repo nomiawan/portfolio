@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import Noman from '../../../public/images/noman.jfif'
 
 const HeroPic = () => {
   return (
@@ -12,8 +13,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/noman.jfif"
-        alt="Abdelrahman Qassem"
+        src={Noman}
+        alt="Noman Ahmed"
         className="max-h-[400px] w-auto rounded-full"
       />
 
